@@ -4,7 +4,7 @@ import SidebarListItem from './SidebarListItem'
 function Sidebar() {
     return (
         
-        <div className="w-2/12 flex flex-col h-screen bg-bg-primary pb-40 " id="sidebardiv">
+        <div className="w-180px flex flex-col h-screen bg-bg-primary pb-40 " id="sidebardiv">
            
             {SIDEBAR_DATA.map((sidebar)=>{
              return <SidebarListItem {...sidebar} />

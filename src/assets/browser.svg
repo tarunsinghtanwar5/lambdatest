@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="19px" viewBox="0 0 23 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>LT</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side-Panel" transform="translate(-16.000000, -528.000000)" stroke="#576377">
+            <g id="LT" transform="translate(17.000000, 529.000000)">
+                <path d="M0.370352398,0.0908937391 L20.6838875,0.0908937391 C20.8884275,0.0908937391 21.0542398,0.256345694 21.0542398,0.460441023 L21.0542398,16.5713099 C21.0542398,16.7754052 20.8884275,16.9408571 20.6838875,16.9408571 L0.370352398,16.9408571 C0.165812416,16.9408571 2.50489231e-17,16.7754052 0,16.5713099 L3.91843421e-16,0.460441023 C3.66794497e-16,0.256345694 0.165812416,0.0908937391 0.370352398,0.0908937391 Z" id="Rectangle-path"></path>
+                <g id="Power" stroke-linecap="round" stroke-linejoin="round" transform="translate(10.720569, 9.631902) rotate(90.000000) translate(-10.720569, -9.631902) translate(2.720569, 4.631902)" stroke-width="0.9375">
+                    <ellipse id="Oval" cx="8.04991087" cy="4.99785452" rx="4.91265597" ry="4.99785452"></ellipse>
+                    <polygon id="Shape" transform="translate(7.843137, 5.086957) rotate(90.000000) translate(-7.843137, -5.086957) " points="8.47203438 4.03260869 11.9649013 4.03260869 5.63693514 12.3930901 7.2142402 6.14130434 3.72137325 6.14130434 10.0493394 -2.21917707"></polygon>
+                </g>
+                <path d="M0,2.99691441 L21.0542398,2.99691441" id="Shape" stroke-width="0.9375"></path>
+                <path d="M6.07843137,0.0908937391 L6.07843137,2.85468426" id="Shape" stroke-width="0.9375"></path>
+            </g>
+        </g>
+    </g>
+</svg>

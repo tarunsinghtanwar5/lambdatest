@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg'
 
 function Profile() {
   return (
-    <div className=" h-full bg-blue-600">
+    <div className=" m-2 h-full bg-white">
       <div className="flex">
         <img src={profile} className="flex h-14 "/>
       <div className="flex flex-2 flex-col">

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>RT</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Realtime-Browser-Testing---REACT-Drive" transform="translate(-741.000000, -227.000000)" stroke="#0EBAC5" stroke-width="1.25">
+            <g id="Group-3" transform="translate(685.000000, 41.000000)">
+                <g id="RT" transform="translate(57.000000, 187.116142)">
+                    <path d="M24.1628223,4.31385185 L24.1628223,1.70379023 C24.1628223,0.982978209 23.5614365,0.398759415 22.8204432,0.398759415 L1.34237901,0.398759415 C0.601385798,0.398759415 0,0.982978209 0,1.70379023 L0,18.2341805 C0,18.9549925 0.601385798,19.5392113 1.34237901,19.5392113 L15.6610885,19.5392113" id="Stroke-257"></path>
+                    <path d="M14.3187095,19.5392113 L14.3187095,23.8893141" id="Stroke-259"></path>
+                    <path d="M9.84411277,23.8893141 L9.84411277,19.5392113" id="Stroke-261"></path>
+                    <path d="M8.50173376,23.8893141 L15.6610885,23.8893141" id="Stroke-263" stroke-linecap="round"></path>
+                    <path d="M0,16.0591292 L15.6610885,16.0591292" id="Stroke-265"></path>
+                    <path d="M17.0034675,7.79393402 L17.0034675,6.48890321 C17.0034675,6.00865187 17.4043914,5.61888267 17.8983869,5.61888267 L26.8475803,5.61888267 C27.3415758,5.61888267 27.7424996,6.00865187 27.7424996,6.48890321 L27.7424996,23.0192935 C27.7424996,23.4995449 27.3415758,23.8893141 26.8475803,23.8893141 L17.8983869,23.8893141 C17.4043914,23.8893141 17.0034675,23.4995449 17.0034675,23.0192935 L17.0034675,12.1440367" id="Stroke-269"></path>
+                    <path d="M23.7153626,10.8390059 L13.8712498,10.8390059" id="Stroke-273"></path>
+                    <path d="M19.2407659,9.09896484 L10.7390321,9.09896484" id="Stroke-275"></path>
+                    <polyline id="Stroke-277" stroke-linecap="round" points="12.0814111 10.4039956 10.7390321 9.09896484 12.0814111 7.79393402"></polyline>
+                    <path d="M24.2075682,10.8390059 L22.8651892,9.53397511" id="Stroke-279" stroke-linecap="round"></path>
+                    <path d="M24.2075682,10.8390059 L22.8651892,12.1440367" id="Stroke-281" stroke-linecap="round"></path>
+                    <path d="M17.0034675,20.4092319 L27.7424996,20.4092319" id="Stroke-283"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

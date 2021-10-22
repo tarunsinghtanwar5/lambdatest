@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ST</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Realtime-Browser-Testing---REACT-Drive" transform="translate(-740.000000, -152.000000)" stroke="#0EBAC5" stroke-width="1.25">
+            <g id="Group-3" transform="translate(685.000000, 41.000000)">
+                <g id="ST" transform="translate(56.000000, 112.116142)">
+                    <ellipse id="Oval" cx="6.91915697" cy="7.15105386" rx="2.20824159" ry="2.24824356"></ellipse>
+                    <polyline id="Shape" points="25.6892104 7.71311475 25.6892104 0.406323185 0.294432211 0.406323185 0.294432211 11.0854801"></polyline>
+                    <path d="M9.67945895,14.4578454 C11.6668764,12.4344262 15.2000629,11.0854801 16.3041837,11.0854801" id="Shape"></path>
+                    <path d="M20.7206669,9.96135831 C21.8247877,9.39929742 24.9715319,9.39929742 25.6892104,9.39929742 L25.6892104,21.764637 L0.294432211,21.764637 L0.294432211,12.7716628 C8.85136835,12.7716628 16.3041837,17.8302108 18.5124253,21.764637" id="Shape"></path>
+                    <path d="M18.5124253,10.5234192 L18.5124253,16.1440281" id="Shape"></path>
+                    <path d="M20.7206669,11.0854801 C20.7206669,12.7716628 20.1686065,13.3337237 18.5124253,13.3337237 C16.8562441,13.3337237 16.3041837,12.7716628 16.3041837,11.0854801 C16.3041837,9.23067916 18.5124253,4.9028103 18.5124253,4.9028103 C18.5124253,4.9028103 20.7206669,9.23067916 20.7206669,11.0854801 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

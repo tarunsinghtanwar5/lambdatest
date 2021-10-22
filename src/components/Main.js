@@ -31,11 +31,11 @@ function Main() {
 					</div>
 				</div>
 
-				<div className="flex flex-col w-1/4">
+				<div className="flex flex-col w-1/4 m-2">
 					<div className=" h-1/6 w-full bg-bg-main">
 						<Profile />
 					</div>
-					<div className=" h-5/6 w-100% m-2">
+					<div className=" h-5/6 w-100% mt-6">
 						<History />
 					</div>
 				</div>

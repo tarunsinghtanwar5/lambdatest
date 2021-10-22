@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="27px" viewBox="0 0 33 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Smart Testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Realtime-Browser-Testing---REACT-Drive" transform="translate(-739.000000, -303.000000)" stroke="#0EBAC5" stroke-width="1.25">
+            <g id="Group-3" transform="translate(685.000000, 41.000000)">
+                <g id="Smart-Testing" transform="translate(55.000000, 262.116142)">
+                    <polyline id="Shape" points="13.8136574 23.0204082 1.97337963 23.0204082 0 21.0612245 0 20.0816327 11.8402778 20.0816327 12.8269676 21.0612245 13.8136574 21.0612245"></polyline>
+                    <path d="M13.8136574,1.46938776 L4.44010417,1.46938776 C3.60141782,1.46938776 2.96006944,2.10612245 2.96006944,2.93877551 L2.96006944,18.6122449" id="Shape"></path>
+                    <polyline id="Shape" points="16.7737269 24.9795918 28.6140046 24.9795918 30.5873843 23.0204082 30.5873843 22.0408163 18.7471065 22.0408163 17.7604167 23.0204082 16.7737269 23.0204082"></polyline>
+                    <path d="M16.7737269,3.42857143 L26.1472801,3.42857143 C26.9859664,3.42857143 27.6273148,4.06530612 27.6273148,4.89795918 L27.6273148,20.5714286" id="Shape"></path>
+                    <path d="M15.2936921,16.6530612 L15.2936921,26.4489796" id="Shape"></path>
+                    <path d="M15.2936921,9.79591837 L15.2936921,13.7142857" id="Shape"></path>
+                    <path d="M15.2936921,0 L15.2936921,6.85714286" id="Shape"></path>
+                    <path d="M15.2936921,15.1836735 C13.369647,15.1836735 11.8402778,13.6653061 11.8402778,11.755102" id="Shape"></path>
+                    <path d="M15.2936921,8.32653061 C17.2177373,8.32653061 18.7471065,9.84489796 18.7471065,11.755102" id="Shape"></path>
+                    <path d="M15.2936921,15.1836735 L19.2404514,15.1836735 M15.2936921,15.1836735 L19.2404514,15.1836735" id="Shape"></path>
+                    <path d="M11.3469329,8.32653061 L15.2936921,8.32653061" id="Shape"></path>
+                    <polyline id="Shape" points="17.2670718 17.1428571 19.2404514 15.1836735 17.2670718 13.2244898"></polyline>
+                    <polyline id="Shape" points="13.3203125 10.2857143 11.3469329 8.32653061 13.3203125 6.36734694"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -7,13 +7,14 @@ import browser from '../assets/browser.svg'
 import projects from '../assets/projects.svg'
 import testlogs from '../assets/testlogs.svg'
 import visual from '../assets/visual.svg'
+import logo from '../assets/logo.svg'
  export const SIDEBAR_DATA = [
-   {
-     label: 'LAMBDATEST ',
-     logo: dashboard,
-     url: '/dashboard',
-     children: null
-   },
+  //  {
+  //    label: '',
+  //    logo: logo,
+  //    url: '/dashboard',
+  //    children: null
+  //  },
 	{
 		label: 'Dashboard',
      logo: dashboard,

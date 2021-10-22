@@ -30,7 +30,6 @@ function Main() {
 						<Graph />
 					</div>
 				</div>
-
 				<div className="flex flex-col w-1/4 m-2">
 					<div className=" h-1/6 w-full bg-bg-main">
 						<Profile />

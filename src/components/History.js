@@ -12,7 +12,6 @@ function History() {
     setIssueborderColor("")
     settestFont("font-semibold")
     setissueFont("font-light")
-
   }
   const issueOnClickHandler= ()=>{
     setTabValue("issues")
@@ -20,20 +19,15 @@ function History() {
     setTestborderColor("")
     settestFont("font-light")
     setissueFont("font-semibold")
-
-
   }
   return (
     
     <div className="flex flex-col filter drop-shadow-lg bg-white h-full max-h-screen  ">
       <div className="flex justify-around pt-2">
-        <span className={`flex flex-col pb-4 cursor-pointer border-b-2 ${testBorderColor} ${testFont} `} onClick={testOnClickHandler}>RECENT TESTS
-          
+        <span className={`flex flex-col pb-4 cursor-pointer border-b-2 ${testBorderColor} ${testFont} `} onClick={testOnClickHandler}>RECENT TESTS   
         </span>
         <span className={`flex flex-col pb-4 cursor-pointer border-b-2 ${issueBorderColor} ${issueFont}`} onClick={issueOnClickHandler}>RECENT ISSUES
-        
         </span>
-
       </div>
       {/* for tests */}
       {tabValue=="tests" && (
@@ -43,7 +37,6 @@ function History() {
         <a className="mb-4 border-solid border-b-2  pt-2"> Testing area</a>
         </div>
       )}
-
         {/* for issues */}
         {tabValue=="issues" && (
          <div className="flex flex-col pl-4">
@@ -53,9 +46,7 @@ function History() {
         </div>
         )}
       <div  className="flex"></div>
-
     </div>
-    
   )
 }
 

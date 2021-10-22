@@ -1,4 +1,4 @@
-import React, { Profiler } from 'react';
+import React from 'react';
 import Automation from './Automation';
 import Graph from './Graph';
 import History from './History';

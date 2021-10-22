@@ -2,23 +2,28 @@ import React, { useState } from "react";
 import { SIDEBAR_DATA } from "../constants/sidebar";
 import SidebarListItem from "./SidebarListItem";
 import logo from "../assets/logo.svg";
-import arrow from '../assets/arrow.svg'
 import arrow_new from '../assets/arrow_new.png'
 import lambda_mini from '../assets/lambdatest_logo.jpg'
+import arrow from '../assets/arrow.svg'
 let logo_img=logo;
 
+let custom_margin=40;
+let rotation="transform rotate-0"
 function Sidebar() {
-  const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(true);
   const hideSideBarHandler = () => {
     setDisplay((display) => !display);
     if(display==false){
-    logo_img=logo;
+    logo_img=logo;   
+    custom_margin=40
+    rotation="transform rotate-0"
     }
     else {
     logo_img=lambda_mini;
+    custom_margin=8
+    rotation= "transform rotate-180"
     }
-    // if(display==true){
-    // const customClass=`overflow-hidden`
+    
   };
 
   return (
@@ -28,8 +33,8 @@ function Sidebar() {
       } flex flex-col bg-navbar-upgrade relative`}
     >
       {/* lambdatest logo */}
-      <div className="w-">
-        <img src={logo_img} className=" bg-navbar-upgrade h-11 " />
+      <div className="">
+        <img src={logo_img} className=" bg-navbar-upgrade h-11 w-40 pl-2.5 " />
       </div>
 
       <div
@@ -40,7 +45,7 @@ function Sidebar() {
           return <SidebarListItem {...sidebar} display={display} />;
         })}
       </div>
-      <button className="absolute ml-90% z-20 w-8" onClick={hideSideBarHandler}><img  src={arrow_new}/></button>
+      <button className={`absolute ml-${custom_margin}  z-20 w-8 ${rotation} mt-2.5`} onClick={hideSideBarHandler}><img  src={arrow}/></button>
     </div>
   );
 }

@@ -2,13 +2,12 @@ import React from 'react'
 
 function Chart(props) {
   return (
-    
       <svg
-      style={{
-        height: 90,
-        width: 120,
-      }}
-    >
+        style={{
+          height: 90,
+          width: 120,
+        }}
+      >
       <path
         className="rs-transition rs-path"
         fill="transparent"

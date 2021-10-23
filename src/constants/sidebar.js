@@ -7,71 +7,71 @@ import browser from '../assets/browser.svg'
 import projects from '../assets/projects.svg'
 import testlogs from '../assets/testlogs.svg'
 import visual from '../assets/visual.svg'
- export const SIDEBAR_DATA = [
- 
-	{
-		label: 'Dashboard',
-     logo: dashboard,
-    url:'/dashboard',
-		children: null
-	},
-   {
-     label: 'Real Time Testing',
-     logo: realtime,
-     url: '/realtime',
-     children: null
-   },
 
-	{
-		label: 'Automation',
-    logo: robot,
+export const SIDEBAR_DATA = [
+{
+  label: 'Dashboard',
+    logo: dashboard,
+  url:'/dashboard',
+  children: null
+},
+  {
+    label: 'Real Time Testing',
+    logo: realtime,
+    url: '/realtime',
+    children: null
+  },
+
+{
+  label: 'Automation',
+  logo: robot,
+  url: '/automation',
+  children: null
+},
+  {
+    label: 'LT Browser',
+    logo: browser,
     url: '/automation',
-		children: null
-	},
-   {
-     label: 'LT Browser',
-     logo: browser,
-     url: '/automation',
-     children: null
-   },
-   {
-     label: 'Visual UI Testing',
-     logo: visual,
-     url: '/automation',
-     children: [
-       {
-         label: 'Screenshot'
-       },
-       {
-         label: 'Responsive'
-       },
-       {
-         label: 'Smart Testing'
-       }
-     ]
-   },
-   {
-     label: 'Test Logs',
-     logo: testlogs,
-     url: '/automation',
-     children: null
-   },
-   {
-     label: 'Issue Tracker',
-     logo: issuetracker,
-     url: '/automation',
-     children: null
-   },
-   {
-     label: 'Integrations',
-     logo: integration,
-     url: '/automation',
-     children: null
-   },
-   {
-     label: 'Projects',
-     logo: projects,
-     url: '/automation',
-     children: null
-   }
+    children: null
+  },
+  {
+    label: 'Visual UI Testing',
+    logo: visual,
+    url: '/automation',
+    children: [
+      {
+        label: 'Screenshot'
+      },
+      {
+        label: 'Responsive'
+      },
+      {
+        label: 'Smart Testing'
+      }
+    ]
+  },
+  {
+    label: 'Test Logs',
+    logo: testlogs,
+    url: '/automation',
+    children: null
+  },
+  {
+    label: 'Issue Tracker',
+    logo: issuetracker,
+    url: '/automation',
+    children: null
+  },
+  {
+    label: 'Integrations',
+    logo: integration,
+    url: '/automation',
+    children: null
+  },
+  {
+    label: 'Projects',
+    logo: projects,
+    url: '/automation',
+    children: null
+  }
 ];

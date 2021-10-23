@@ -24,14 +24,14 @@ function Navbar() {
     setshowDropDown(false);
   };
   return (
-    <div className="flex justify-end border-solid border-2 w-full filter drop-shadow-lg items-center z-10 ">
+    <div className="flex justify-end w-full filter items-center z-10 shadow-sm pt-1 pb-1">
       <div className="relative">
         {/* sqaure dropdown menu */}
         <img src={dropdown} className="m-2" onClick={dropDownHandler} />
         {showDropDown && (
           <Dropdown>
             <div className="py-1 max-w-full" role="none">
-          <div className="flex flex-wrap items-start justify-between p-2.5 pl-5 pr-5">
+            <div className="flex flex-wrap items-start justify-between p-2.5 pl-5 pr-5">
               <a className="text-xs hover:bg-gray-100 cursor-pointer">
                 <img
                   href="#"
@@ -43,7 +43,6 @@ function Navbar() {
                />
                 Realtime Test
               </a>
-
               <a className="text-xs hover:bg-gray-100 cursor-pointer">
                 <img
                   href="#"
@@ -65,7 +64,7 @@ function Navbar() {
                   src={screenshot}
                 />
                   Screenshot Test
-             </a>
+              </a>
               <a className="text-xs hover:bg-gray-100 cursor-pointer">
                 <img
                   href="#"
@@ -110,8 +109,8 @@ function Navbar() {
                 />
                   LT-Browser
               </a>
-              </div>
             </div>
+          </div>
           </Dropdown>
         )}
       </div>
@@ -126,7 +125,7 @@ function Navbar() {
 
       {/* profile drop down */}
       <div className="relative">
-        <img src={user} className="m-1" onClick={profileHandler} />
+        <img src={user} className="m-1 mr-5" onClick={profileHandler} />
         {showUserProfile && (
           <Dropdown>
             <div className="py-1" role="none">

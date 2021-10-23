@@ -21,30 +21,29 @@ function History() {
     setissueFont("font-semibold")
   }
   return (
-    
-    <div className="flex flex-col filter drop-shadow-lg bg-white h-full max-h-screen  ">
-      <div className="flex justify-around pt-2">
-        <span className={`flex flex-col pb-4 cursor-pointer border-b-2 ${testBorderColor} ${testFont} `} onClick={testOnClickHandler}>RECENT TESTS   
+    <div className="flex flex-col filter shadow-sm bg-white h-full max-h-screen p-5">
+      <div className="flex justify-between">
+        <span className={`flex flex-col flex-1 pb-4 cursor-pointer text-sm border-b-2 ${testBorderColor} ${testFont} `} onClick={testOnClickHandler}>RECENT TESTS   
         </span>
-        <span className={`flex flex-col pb-4 cursor-pointer border-b-2 ${issueBorderColor} ${issueFont}`} onClick={issueOnClickHandler}>RECENT ISSUES
+        <span className={`flex flex-col flex-1 pb-4 cursor-pointer text-sm border-b-2 ${issueBorderColor} ${issueFont}`} onClick={issueOnClickHandler}>RECENT ISSUES
         </span>
       </div>
       {/* for tests */}
       {tabValue=="tests" && (
-      <div className="flex flex-col pl-4 ">
-       <a className="mb-4 border-solid border-b-2 pt-2">Live | tarunsinghtanwar5</a>
-        <a className="mb-4 border-solid border-b-2  pt-2">Live | john</a>
-        <a className="mb-4 border-solid border-b-2  pt-2"> Testing area</a>
+        <div className="flex flex-col mt-4">
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2">Live | tarunsinghtanwar5</a>
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2">Live | john</a>
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2"> Testing area</a>
         </div>
       )}
-        {/* for issues */}
-        {tabValue=="issues" && (
-         <div className="flex flex-col pl-4">
-       <a className="mb-4 border-solid border-b-2 pt-2">Issues raised</a>
-        <a className="mb-4 border-solid border-b-2 pt-2">Past Issues</a>
-        <a className="mb-4 border-solid border-b-2 pt-2">New Issues</a>
+      {/* for issues */}
+      {tabValue=="issues" && (
+        <div className="flex flex-col mt-4">
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2">Issue 1</a>
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2">Issue 2</a>
+          <a className="mb-4 border-solid border-b border-gray-100 pt-2 pb-2">Issue 3</a>
         </div>
-        )}
+      )}
       <div  className="flex"></div>
     </div>
   )

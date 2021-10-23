@@ -3,7 +3,7 @@ import ChartRight from './ChartRight'
 
 function Automation() {
   return (
-    <div className="bg-white h-full filter drop-shadow-lg pl-4 pr-4 pt-2.5 flex flex-col">
+    <div className="bg-white h-full filter shadow-sm pl-4 pr-4 pt-2.5 flex flex-col ml-2">
       <div>
       <h1 className="font-semibold text-sm">AUTOMATION SESSIONS</h1>
       <h2 className="font-light text-xs">Subscribed 2 Parrallel Sessions</h2>
@@ -15,7 +15,7 @@ function Automation() {
       <span className="font-semibold text-3xl absolute">0</span>
        <span>Parallel Sessions</span>
        </div>
-      <a href="app.lambdatest.com/console/test-logs" className="text-sm text-navbar-upgrade  mt-auto mb-2.5">VIEW LOGS</a>
+      <a href="app.lambdatest.com/console/test-logs" className="text-xs font-bold text-navbar-upgrade mt-auto mb-4">VIEW LOGS</a>
     </div>
   )
 }
